@@ -164,4 +164,4 @@ export const search = async (query, count = 1) => {
   return store.similaritySearch(query, count);
 };
 
-console.log(await search("我想看一部令人兴奋的电影，有什么推荐吗？"));
+console.log(await search("我想看一部艺术的电影，有什么值得一看的吗？"));
